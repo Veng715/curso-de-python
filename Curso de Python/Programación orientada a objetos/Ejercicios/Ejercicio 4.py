@@ -7,7 +7,7 @@ class Pokemon:
 
     def atacar(self, objetivo, daño):
         if daño <= 0:
-            print(f"{self.nombre} bo puede atacar con daño no positivo.")
+            print(f"{self.nombre} no puede atacar con daño no positivo.")
             return
         if self.__salud <= 0:
             print(f"{self.nombre} no puede atacar porque está debilitado.")
