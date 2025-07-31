@@ -44,7 +44,7 @@ class Pokemon:
 class PokemonLegendario(Pokemon):
     def __init__(self, nombre, tipo, habilidad_especial):
         super().__init__(nombre, tipo)
-        self.__habilidad_especial = habilidad_especial  # Privado
+        self.__habilidad_especial = habilidad_especial
 
     def atacar(self, objetivo, dano):
         dano_extra = 0
